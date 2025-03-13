@@ -1,0 +1,12 @@
+//Write a Java program to swap two numbers using a temporary variable and without using a temporary variable.
+
+class SwapPrm{
+	public static void main(String args[]){
+		int a=10, b=20, c;
+		System.ount.println("a : "+a+" b : "+b);
+		c=a+b;
+		a=a-b;
+		b=a+b;
+		System.ount.println("a : "+a+" b : "+b);
+	}
+}
